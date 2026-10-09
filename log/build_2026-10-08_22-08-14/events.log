@@ -1,0 +1,55 @@
+[0.000000] (-) TimerEvent: {}
+[0.000372] (publisher_pkg) JobQueued: {'identifier': 'publisher_pkg', 'dependencies': OrderedDict()}
+[0.001653] (publisher_pkg) JobStarted: {'identifier': 'publisher_pkg'}
+[0.100405] (-) TimerEvent: {}
+[0.200825] (-) TimerEvent: {}
+[0.302806] (-) TimerEvent: {}
+[0.404627] (-) TimerEvent: {}
+[0.506906] (-) TimerEvent: {}
+[0.607282] (-) TimerEvent: {}
+[0.707890] (-) TimerEvent: {}
+[0.808266] (-) TimerEvent: {}
+[0.909593] (-) TimerEvent: {}
+[1.010026] (-) TimerEvent: {}
+[1.069213] (publisher_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/publisher_pkg', 'build', '--build-base', '/home/holiday/monitor_publisher/build/publisher_pkg/build', 'install', '--record', '/home/holiday/monitor_publisher/build/publisher_pkg/install.log', '--install-scripts', '$base/lib/publisher_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/holiday/monitor_publisher/src/publisher_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'holiday'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/holiday'), ('OLDPWD', '/home/holiday'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1748'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/holiday/my_pak/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'holiday'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'holiday'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/holiday-virtual-machine:@/tmp/.ICE-unix/1724,unix/holiday-virtual-machine:/tmp/.ICE-unix/1724'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e04b8cc9_0489_4df8_a8c4_268e13d53274'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUN4W3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.270'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/holiday/my_pak/install/learning_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/holiday/monitor_publisher/build/publisher_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/holiday/monitor_publisher/build/publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages:/home/holiday/my_pak/install/learning_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.110261] (-) TimerEvent: {}
+[1.210690] (-) TimerEvent: {}
+[1.294702] (publisher_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.295157] (publisher_pkg) StdoutLine: {'line': b'creating ../../build/publisher_pkg/publisher_pkg.egg-info\n'}
+[1.295909] (publisher_pkg) StdoutLine: {'line': b'writing ../../build/publisher_pkg/publisher_pkg.egg-info/PKG-INFO\n'}
+[1.296081] (publisher_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/publisher_pkg/publisher_pkg.egg-info/dependency_links.txt\n'}
+[1.296272] (publisher_pkg) StdoutLine: {'line': b'writing entry points to ../../build/publisher_pkg/publisher_pkg.egg-info/entry_points.txt\n'}
+[1.296331] (publisher_pkg) StdoutLine: {'line': b'writing requirements to ../../build/publisher_pkg/publisher_pkg.egg-info/requires.txt\n'}
+[1.296381] (publisher_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/publisher_pkg/publisher_pkg.egg-info/top_level.txt\n'}
+[1.297566] (publisher_pkg) StdoutLine: {'line': b"writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'\n"}
+[1.299270] (publisher_pkg) StdoutLine: {'line': b"reading manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'\n"}
+[1.299974] (publisher_pkg) StdoutLine: {'line': b"writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'\n"}
+[1.300261] (publisher_pkg) StdoutLine: {'line': b'running build\n'}
+[1.300335] (publisher_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.300417] (publisher_pkg) StdoutLine: {'line': b'creating /home/holiday/monitor_publisher/build/publisher_pkg/build\n'}
+[1.300508] (publisher_pkg) StdoutLine: {'line': b'creating /home/holiday/monitor_publisher/build/publisher_pkg/build/lib\n'}
+[1.300558] (publisher_pkg) StdoutLine: {'line': b'creating /home/holiday/monitor_publisher/build/publisher_pkg/build/lib/publisher_pkg\n'}
+[1.300633] (publisher_pkg) StdoutLine: {'line': b'copying publisher_pkg/publisher_node.py -> /home/holiday/monitor_publisher/build/publisher_pkg/build/lib/publisher_pkg\n'}
+[1.300684] (publisher_pkg) StdoutLine: {'line': b'copying publisher_pkg/__init__.py -> /home/holiday/monitor_publisher/build/publisher_pkg/build/lib/publisher_pkg\n'}
+[1.300801] (publisher_pkg) StdoutLine: {'line': b'running install\n'}
+[1.301106] (publisher_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.301706] (publisher_pkg) StdoutLine: {'line': b'creating /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg\n'}
+[1.302536] (publisher_pkg) StdoutLine: {'line': b'copying /home/holiday/monitor_publisher/build/publisher_pkg/build/lib/publisher_pkg/publisher_node.py -> /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg\n'}
+[1.302666] (publisher_pkg) StdoutLine: {'line': b'copying /home/holiday/monitor_publisher/build/publisher_pkg/build/lib/publisher_pkg/__init__.py -> /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg\n'}
+[1.302717] (publisher_pkg) StdoutLine: {'line': b'byte-compiling /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg/publisher_node.py to publisher_node.cpython-310.pyc\n'}
+[1.302806] (publisher_pkg) StdoutLine: {'line': b'byte-compiling /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[1.302958] (publisher_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.303059] (publisher_pkg) StdoutLine: {'line': b'creating /home/holiday/monitor_publisher/install/publisher_pkg/share/ament_index\n'}
+[1.303146] (publisher_pkg) StdoutLine: {'line': b'creating /home/holiday/monitor_publisher/install/publisher_pkg/share/ament_index/resource_index\n'}
+[1.303222] (publisher_pkg) StdoutLine: {'line': b'creating /home/holiday/monitor_publisher/install/publisher_pkg/share/ament_index/resource_index/packages\n'}
+[1.303293] (publisher_pkg) StdoutLine: {'line': b'copying resource/publisher_pkg -> /home/holiday/monitor_publisher/install/publisher_pkg/share/ament_index/resource_index/packages\n'}
+[1.303365] (publisher_pkg) StdoutLine: {'line': b'copying package.xml -> /home/holiday/monitor_publisher/install/publisher_pkg/share/publisher_pkg\n'}
+[1.303414] (publisher_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.305800] (publisher_pkg) StdoutLine: {'line': b'Copying ../../build/publisher_pkg/publisher_pkg.egg-info to /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info\n'}
+[1.306628] (publisher_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.310772] (-) TimerEvent: {}
+[1.325963] (publisher_pkg) StdoutLine: {'line': b'Installing publisher_pkg script to /home/holiday/monitor_publisher/install/publisher_pkg/lib/publisher_pkg\n'}
+[1.326699] (publisher_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/holiday/monitor_publisher/build/publisher_pkg/install.log'\n"}
+[1.349692] (publisher_pkg) CommandEnded: {'returncode': 0}
+[1.370713] (publisher_pkg) JobEnded: {'identifier': 'publisher_pkg', 'rc': 0}
+[1.371593] (-) EventReactorShutdown: {}

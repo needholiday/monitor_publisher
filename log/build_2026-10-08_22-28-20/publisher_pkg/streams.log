@@ -1,0 +1,24 @@
+[0.569s] Invoking command in '/home/holiday/monitor_publisher/src/publisher_pkg': PYTHONPATH=/home/holiday/monitor_publisher/build/publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /home/holiday/monitor_publisher/build/publisher_pkg/build install --record /home/holiday/monitor_publisher/build/publisher_pkg/install.log --install-scripts $base/lib/publisher_pkg --single-version-externally-managed install_data
+[0.783s] running egg_info
+[0.783s] writing ../../build/publisher_pkg/publisher_pkg.egg-info/PKG-INFO
+[0.784s] writing dependency_links to ../../build/publisher_pkg/publisher_pkg.egg-info/dependency_links.txt
+[0.784s] writing entry points to ../../build/publisher_pkg/publisher_pkg.egg-info/entry_points.txt
+[0.784s] writing requirements to ../../build/publisher_pkg/publisher_pkg.egg-info/requires.txt
+[0.784s] writing top-level names to ../../build/publisher_pkg/publisher_pkg.egg-info/top_level.txt
+[0.786s] reading manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[0.787s] writing manifest file '../../build/publisher_pkg/publisher_pkg.egg-info/SOURCES.txt'
+[0.787s] running build
+[0.787s] running build_py
+[0.787s] copying publisher_pkg/publisher_node.py -> /home/holiday/monitor_publisher/build/publisher_pkg/build/lib/publisher_pkg
+[0.787s] running install
+[0.788s] running install_lib
+[0.788s] copying /home/holiday/monitor_publisher/build/publisher_pkg/build/lib/publisher_pkg/publisher_node.py -> /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg
+[0.790s] byte-compiling /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg/publisher_node.py to publisher_node.cpython-310.pyc
+[0.790s] running install_data
+[0.790s] running install_egg_info
+[0.792s] removing '/home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.792s] Copying ../../build/publisher_pkg/publisher_pkg.egg-info to /home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages/publisher_pkg-0.0.0-py3.10.egg-info
+[0.793s] running install_scripts
+[0.811s] Installing publisher_node script to /home/holiday/monitor_publisher/install/publisher_pkg/lib/publisher_pkg
+[0.812s] writing list of installed files to '/home/holiday/monitor_publisher/build/publisher_pkg/install.log'
+[0.833s] Invoked command in '/home/holiday/monitor_publisher/src/publisher_pkg' returned '0': PYTHONPATH=/home/holiday/monitor_publisher/build/publisher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/holiday/monitor_publisher/install/publisher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publisher_pkg build --build-base /home/holiday/monitor_publisher/build/publisher_pkg/build install --record /home/holiday/monitor_publisher/build/publisher_pkg/install.log --install-scripts $base/lib/publisher_pkg --single-version-externally-managed install_data
